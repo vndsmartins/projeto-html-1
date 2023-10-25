@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://media.tenor.com/z4NaeqSDIJUAAAAd/homer-simpson-dancing.gif);
+}
+
+h1{
+    color:rgb(255, 0, 0);
+    text-align: center;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+button{
+    color: aqua;
+    background-color: black;
+    border-radius: 10rem;
+    align-items: center;
+}
