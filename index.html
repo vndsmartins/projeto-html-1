@@ -26,7 +26,29 @@
     <p>As coisas são mais que estranhas do que o normal quando eu paro pra pensar.
     <p>
 
-        <a href="https://youtu.be/pHMH408ltEM?si=HCRwUo4mImf37jr-&t=12" target="_blank"><button> CLIQUE AQUI AGORA</button></a>
+        <button id="openPopupButton"> CLIQUE AQUI AGORA</button>
+
+        <script>
+            // Função para abrir o popup
+            function abrirPopup() {
+                // URL do link que você deseja abrir
+                var linkURL = "https://www.youtube.com/embed/pHMH408ltEM?si=9nKpbFlS0sZayPpL&amp;controls=0&amp;start=12";
+                
+                // Configurações do popup
+                var popupConfig = "width=600, height=400, top=100, left=100, resizable=yes, scrollbars=yes, autoplay";
+                
+                // Abre o popup
+                window.open(linkURL, "PopupName", popupConfig);
+            }
+            
+            // Adiciona um evento de clique ao botão
+            document.getElementById("openPopupButton").addEventListener("click", function() {
+                abrirPopup();
+            });
+        </script>
+        
+
+        
 
 </body>
 
